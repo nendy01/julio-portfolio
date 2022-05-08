@@ -18,7 +18,10 @@
   });
 })(".container-icon", ".main-menu", "main-menu-active", "none");
 
+
+
 const topBtn = document.querySelector(".top");
+const habilityTittle = document.querySelector('.habilidades-title')
 const options = {
   threshold: 1.0,
 };
@@ -39,17 +42,24 @@ topBtn.addEventListener("click", (e) => {
 });
 
 const addClass = () => topBtn.classList.add("btnActive");
+const removeClass = () => topBtn.classList.remove("btnActive");
 
 const ojo = (entrys) => {
   entrys.forEach((entry) => {
     if (entry.isIntersecting) {
       addClass();
+    }else{
+      removeClass()
     }
   });
 };
 
 const observer = new IntersectionObserver(ojo, options);
-observer.observe(topBtn);
+observer.observe(habilityTittle);
+
+
+
+
 
 const form = document.getElementById("form");
 const alert = document.querySelector(".alert");
