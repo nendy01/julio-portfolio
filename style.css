@@ -206,8 +206,9 @@ main {
   justify-content: center;
 }
 h1 {
+  margin-top: 2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 600;
   margin: 0;
   padding: 0 1rem;
@@ -554,6 +555,7 @@ legend {
   }
   h1 {
     padding: 0 2rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -571,6 +573,7 @@ legend {
 
   h1 {
     padding: 0 4rem;
+    font-size: 3rem;
   }
   .si {
     width: 82%;
