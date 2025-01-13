@@ -231,6 +231,10 @@ document.querySelector(".language-button").addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const selectedLanguage = localStorage.getItem("language") || "en";
     loadTranslations(selectedLanguage);
+
+    const button = document.querySelector("#audio");
+
+    button.play()
 });
 
 
