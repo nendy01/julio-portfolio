@@ -1,0 +1,337 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Torres - JT</title>
+    <link rel="shortcut icon" href="./assets/ju.png" type="image/x-icon">
+    <link rel="stylesheet" href="noemalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <canvas id="starfield"></canvas>
+    <audio src="./assets/audio.mp3" autoplay loop></audio>
+    <div class="night">
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+        <div class="shooting_star"></div>
+    </div>
+    <div class="app-container">
+
+        <header class="header">
+            <div class="si">
+                <img src="./assets/ju.png" alt="" class="logo" />
+            </div>
+            <div class="container-icon">
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24"
+                    style="fill: #ffffff">
+                    <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z 
+                    M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="none" x="0px" y="0px" width="30" height="30"
+                    viewBox="0 0 24 24" style="fill: #ffffff">
+                    <path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312
+         L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062
+          L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031
+           4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path>
+                </svg>
+
+            </div>
+
+            <nav class="main-menu">
+                <div class="main-menu-div">
+                    <a href="#inicio" id="index" class="main-menu__link">Inicio</a>
+                    <a href="#habilidades" id="hability" class="main-menu__link">Habilidades</a>
+                    <a href="#proyectos" id="projects" class="main-menu__link">Proyectos</a>
+                    <a href="#contacto" id="contact" class="main-menu__link">contacto</a>
+                </div>
+
+
+
+                <div class="container-language">
+
+                    <button class="language-button">
+                        en
+                    </button>
+                </div>
+                <!--  <a href="/" class="button main-menu__button" download="Julio-torres-cv.pdf">Descargar</a> -->
+
+            </nav>
+        </header>
+        <main>
+            <section class="hero-section" id="inicio">
+                <h1>
+                    <span id="greeting-name">
+                        I am Julio,
+                    </span><br>
+                    <span id="greeting-occupation">Front-end Developer</span>
+                </h1>
+                <p class="greeting-text" id="greeting-text">
+                    Hi, I'm Julio, a Full Stack developer focused on building high-performance applications to drive
+                    business growth.
+
+                </p>
+                <div class="side-label right">
+                    <span class="j">J</span>
+                    <span class="u">U</span>
+                    <Span class="l">L</Span>
+                    <Span class="i">I</Span>
+                    <span class="o">O</span>
+                </div>
+
+
+                <div class="inline-buttons">
+                    <a href="#contacto">
+
+                        <button class="main-button main-button__getin" id="contact-button">
+                            Get in touch!
+                    </a>
+                    </button>
+                    <a href="./assets/julio-torres-cv.pdf" class="button main-menu__button"
+                        download="Julio-torres-cv.pdf">
+                        <button id="download" class="main-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 dl-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+
+
+            </section>
+            <section class="section" id="habilidades">
+                <h2 id="hability" class="section-title">hability</h2>
+                <div class="habilitys">
+                    <div class="skills frontend" data-aos="fade-right">
+                        <h3 class="skill-title">Front-end</h3>
+                        <ul class="hability">
+                            <li class="hability-item ts">Typescript</li>
+                            <li class="hability-item react">React js</li>
+                            <li class="hability-item redux">Redux</li>
+                            <li class="hability-item material">Material ui</li>
+                            <li class="hability-item tailwind">Tailwind css</li>
+                            <li class="hability-item next">Next js</li>
+                            <li class="hability-item angular">Angular</li>
+                            <li class="hability-item rwd">Responsive web design</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills" data-aos="zoom-in-up">
+                        <h3 class="skill-title">Back-end</h3>
+                        <ul class="hability">
+                            <li class="hability-item node">Nodejs</li>
+                            <li class="hability-item mongodb">MongoDB</li>
+                            <li class="hability-item mysql">Mysql</li>
+                            <li class="hability-item postgress">PostgreSQL</li>
+                            <li class="hability-item sequelize">Sequelize</li>
+                            <li class="hability-item rest">Rest API</li>
+                            <li class="hability-item firebase">firebase</li>
+                            <li class="hability-item jwt">JWT</li>
+
+                            <li class="hability-item express">Expressjs</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills" data-aos="fade-left">
+                        <h3 class="skill-title">Others</h3>
+                        <ul class="hability">
+                            <li class="hability-item figma">Figma</li>
+                            <li class="hability-item python">python</li>
+                            <li class="hability-item docker">docker</li>
+
+                            <li class="hability-item git">Git</li>
+                            <li class="hability-item github">Github</li>
+                            <li class="hability-item testing">testing</li>
+                        </ul>
+                    </div>
+                    <div class="skills" data-aos="fade-left">
+                        <h3 class="skill-title">Soft Skills</h3>
+                        <ul class="hability">
+                            <li class="hability-item" id="problemSolving">Problem-Solving</li>
+                            <li class="hability-item" id="communication">Communication</li>
+                            <li class="hability-item" id="adaptability">Adaptability</li>
+                            <li class="hability-item" id="collaboration">Collaboration</li>
+                            <li class="hability-item" id="timeManagement">Time Management</li>
+                            <li class="hability-item" id="attentionToDetail">Attention to Detail</li>
+                            <li class="hability-item" id="creativity">Creativity</li>
+                            <li class="hability-item" id="patienceAndPersistence">Patience and Persistence</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="proyectos">
+
+                <h2 id="projects" class="section-title">projects</h2>
+
+                <div class="Cproyectos">
+                    <div class="proyectos">
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="./assets/rickandmorty.png" alt="blablabla" class="proyectImg" />
+                            <h2 class="title">React / Typescript / ChakraUI / Redux</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01/rick-adn-morty-dev"
+                                    target="_blank">
+                                    <img class="imgGithub" src="./assets/icons/github30x30.png " alt="icon github" />
+                                </a>
+
+                                <a class="linkPage" href="https://rick-and-morty-chakra-ui.netlify.app/"
+                                    target="_blank">ver</a>
+                            </div>
+                        </article>
+
+
+                        <!---no funciona -->
+
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="./assets/twl.png" alt="the white library" class="proyectImg" />
+                            <h2 class="title">React / mondodb / express / node</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01" target="_blank">
+                                    <img class="imgGithub" src="./assets/icons/github30x30.png " alt="icon github" />
+                                </a>
+
+                                <a class="linkPage" href="https://the-white-library.netlify.app/"
+                                    target="_blank">ver</a>
+                            </div>
+                        </article>
+                        <!----->
+
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="assets/shoptwo.png" alt="blablabla" class="proyectImg" />
+                            <h2 class="title">React / RHF / jest</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01/little-store"
+                                    target="_blank"><img class="imgGithub" src="./assets//icons//github30x30.png"
+                                        alt="icon github" /></a><a class="linkPage" href="https://shoptwo.netlify.app"
+                                    target="_blank">ver</a>
+                            </div>
+                        </article>
+
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="assets/tailwindpage.png" alt="blablabla" class="proyectImg" />
+                            <h2 class="title">HTML / tailwindCss</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01/app-tailwind"
+                                    target="_blank"><img class="imgGithub" src="./assets//icons//github30x30.png"
+                                        alt="icon github" /></a><a class="linkPage"
+                                    href="https://pageintailwind.netlify.app/" target="_blank">ver</a>
+                            </div>
+                        </article>
+
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="assets/sunnysite.png" alt="blablabla" class="proyectImg" />
+                            <h2 class="title">HTML / CSS</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01/Sunnyside" target="_blank"><img
+                                        class="imgGithub" src="./assets//icons//github30x30.png"
+                                        alt="icon github" /></a><a class="linkPage"
+                                    href="https://julio-sunnyside.netlify.app/" target="_blank">ver</a>
+                            </div>
+                        </article>
+
+                        <article class="proyecto" data-aos="zoom-in">
+                            <img src="assets/fylo.jpeg" alt="blablabla" class="proyectImg" />
+                            <h2 class="title">HTML / CSS</h2>
+                            <div class="linkandpage">
+                                <a class="githubLink" href="https://github.com/nendy01/fylo" target="_blank"><img
+                                        class="imgGithub"
+                                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                        alt="icon github" /></a><a class="linkPage" href="https://nendyfylo.netlify.app"
+                                    target="_blank">ver</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contacto">
+                <h2 id="contact" class="section-title">contact</h2>
+
+                <div class="container-form">
+                    <form action="#" class="form" id="form" autocomplete="off">
+                        <fieldset>
+                            <legend id="sam">send me a message</legend>
+                            <div class="block form-header-only">
+                                <div class="alert"></div>
+                            </div>
+                            <div class="block">
+                                <label for="name" id="name">name</label>
+                                <input type="text" name="name" id="name" class="input input-only" />
+                            </div>
+                            <div class="block">
+                                <label for="email">email</label>
+                                <input type="email" name="email" id="email" class="input input-only" />
+                            </div>
+                            <div class="block">
+                                <label for="message" id="message">message</label>
+                                <textarea name="message" cols="12" rows="5" id="message" class="input area"></textarea>
+                            </div>
+                            <div class="block socials-submit">
+                                <button type="submit" id="send" class="button submit">Send</button>
+                                <div class="socials">
+
+                                    <a href="https://wa.me/18292791669?Hola,%20julio.%20Quiero%20comunicarme%20contigo"
+                                        target="_blank">
+                                        <img src="./assets/icons8-whatsapp-40.png" alt="">
+
+                                        <a href="mailto:nendytorres@gmail.com" target="_blank">
+                                            <img src="./assets/icons8-gmail-40.png" alt="">
+                                        </a>
+
+                                        <a href="https://www.linkedin.com/in/juliotorres2001/" target="_blank">
+                                            <img src="./assets/icons8-linkedin-rodeado-de-círculo-40.png" alt="">
+                                        </a>
+                                        <a href="https://github.com/nendy01" target="_blank">
+                                            <img src="./assets/icons8-github-40.png" alt="">
+                                        </a>
+                                        <a href="tel:+18292791669" target="_blank">
+                                            <img src="./assets/icons8-phone-40.png" alt="">
+                                        </a>
+                                        <input type="text" value="nendytorres@gmail.com" id="textToCopy" readonly>
+                                        <img id="copy-button" src="./assets/icons/copy.png" alt="">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>Julio Torres</p>
+                <p>&copy;2021 All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
